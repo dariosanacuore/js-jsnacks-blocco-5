@@ -6,7 +6,11 @@ const people = [
 
 // Stampa in console tutti i nomi
 // Risultato: 'Paolo', 'Giulia', 'Marco'
-const personWithMaps = people.map(function (person) {
+/**const personWithMaps = people.map(function (person) {
   return person.name;
 });
 console.log(personWithMaps);
+*/
+people.forEach(function (person) {
+  console.log(person.name);
+});
